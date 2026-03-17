@@ -13,8 +13,8 @@
 
 This project ships two playable versions of Tic-Tac-Toe written in C++. Both versions share the same core game logic (board initialisation, move validation, win/draw detection) but differ in their presentation layer:
 
-- **`TikTakTow.cpp`** — Terminal/console version using a dynamic 2D pointer array (`char**`) and keyboard input
-- **`TikTakToe.cpp`** — SFML graphical version with mouse-click gameplay, sprite pieces, 4 colour themes, and audio
+- **`TikTakTow-Logic.cpp`** — Terminal/console version using a dynamic 2D pointer array (`char**`) and keyboard input
+- **`TikTakToe-SFML.cpp`** — SFML graphical version with mouse-click gameplay, sprite pieces, 4 colour themes, and audio
 
 ---
 
@@ -80,7 +80,7 @@ if (moveCount >= n * 2 - 1 && win(p1, p2)) {
 
 ## Version Comparison
 
-| Feature | Console (`TikTakTow.cpp`) | Graphical (`TikTakToe.cpp`) |
+| Feature | Console (`TikTakTow-Logic.cpp`) | Graphical (`TikTakToe-SFML.cpp`) |
 |---------|--------------------------|------------------------------|
 | Board storage | `char**` — dynamic 2D pointer | `char[n][n]` — static array |
 | Input method | Row & column via `cin` | Mouse left-click on cell |
@@ -123,7 +123,7 @@ if (moveCount >= n * 2 - 1 && win(p1, p2)) {
 
 ```bash
 # Compile
-g++ -std=c++17 -o tictactoe TikTakTow.cpp
+g++ -std=c++17 -o tictactoe TikTakTow-Logic.cpp
 
 # Run
 ./tictactoe
@@ -133,7 +133,7 @@ g++ -std=c++17 -o tictactoe TikTakTow.cpp
 
 **Linux / macOS**
 ```bash
-g++ -std=c++17 TikTakToe.cpp -o tictactoe_sfml \
+g++ -std=c++17 TikTakToe-SFML.cpp -o tictactoe_sfml \
     -lsfml-graphics -lsfml-window -lsfml-system -lsfml-audio
 
 ./tictactoe_sfml
