@@ -27,15 +27,6 @@ This project ships two playable versions of Tic-Tac-Toe written in C++. Both ver
 
 ---
 
-## Winning
-
-| Win |  |
-|:---:|:---:|
-| ![Gameplay](Output/Screenshot%202026-03-20%20184050.png) | ![VS_Code](Screenshot%202026-02-07%20020335.png) |
-
-
----
-
 ## Project Structure
 
 ```
@@ -53,6 +44,15 @@ TicTacToe/
     ├── win.wav            # Win sound
     └── draw.wav           # Draw sound
 ```
+
+---
+
+## Winning
+
+| Win |  |
+|:---:|:---:|
+| ![Gameplay](Output/Screenshot%202026-02-07%20184050.png) | ![VS_Code](Screenshot%202026-02-07%20020335.png) |
+
 
 ---
 
