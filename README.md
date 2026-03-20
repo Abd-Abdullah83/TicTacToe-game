@@ -22,7 +22,7 @@ This project ships two playable versions of Tic-Tac-Toe written in C++. Both ver
 
 | SFML Gameplay | Visual Studio — Console Code |
 |:---:|:---:|
-| ![Gameplay](screenshots/gameplay.png) | ![VS Code](Output/Screenshot-2026-02-07-020335.png) |
+| ![Gameplay](Output/Screenshot-2026-03-20-211600.png) | ![VS_Code](Output/Screenshot-2026-02-07-020335.png) |
 
 > Player X wins via left-column diagonal. Yellow game-over overlay with restart/exit prompt.
 
