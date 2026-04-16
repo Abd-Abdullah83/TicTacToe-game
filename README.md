@@ -5,7 +5,7 @@
 ![Console](https://img.shields.io/badge/Version-Console%20%2B%20GUI-blueviolet?style=flat-square)
 ![Game](https://img.shields.io/badge/Type-2--Player%20Game-orange?style=flat-square)
 
-> Two complete C++ implementations of Tic-Tac-Toe — a terminal version and a fully graphical SFML game with themes, sprite textures, and sound effects..
+> Two complete C++ implementations of Tic-Tac-Toe — a terminal version and a fully graphical SFML game with themes, sprite textures, and sound effects.
 
 ---
 
