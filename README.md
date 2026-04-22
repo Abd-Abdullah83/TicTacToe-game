@@ -11,7 +11,7 @@
 
 ## Overview
 
-This project ships two playable versions of Tic-Tac-Toe written in C++. Both versions share the same core game logic (board initialisation, move validation, windraw detection) but differ in their presentation layer:
+This project ships two playable versions of Tic-Tac-Toe written in C++. Both versions share the same core game logic (board initialisation, move validation, win/draw detection) but differ in their presentation layer:
 
 - **`TikTakTow-Logic.cpp`** — Terminal/console version using a dynamic 2D pointer array (`char**`) and keyboard input
 - **`TikTakToe-SFML.cpp`** — SFML graphical version with mouse-click gameplay, sprite pieces, 4 colour themes, and audio
